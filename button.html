@@ -1,0 +1,20 @@
+<html>
+<head> <title> Button </title> </head>
+<body> 
+<h1>Press button to change text</h1> <p>Change the text color by clicking on the button down here!! </p>
+<button id= "red">Red</button> 
+<script> document.getElementById('red').onclick = changeColor; var currentColor = "black";
+
+function changeColor() 
+{ 
+if(currentColor == "red")
+{ document.body.style.color = "black";
+currentColor = "black"; 
+} 
+
+else 
+{ document.body.style.color = "red";
+currentColor = "red"; } } 
+</script> 
+</body>
+</html>
